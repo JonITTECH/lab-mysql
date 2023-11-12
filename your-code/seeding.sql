@@ -15,6 +15,20 @@ INSERT INTO Customers (CustomerID, Name, Phone, Email, Address, City, StateProvi
 (20001, 'Abraham Lincoln', '+1 305 907 7086', '-', '120 SW 8th St', 'Miami', 'Florida', 'United States', '33130'),
 (30001, 'Napoléon Bonaparte', '+33 1 79 75 40 00', '-', '40 Rue du Colisée', 'Paris', 'Île-de-France', 'France', '75008');
 
+INSERT INTO Salespersons (StaffID, Name, Store) VALUES
+('00001', 'Petey Cruiser', 'Madrid'),
+('00002', 'Anna Sthesia', 'Barcelona'),
+('00003', 'Paul Molive', 'Berlin'),
+('00004', 'Gail Forcewind', 'Paris'),
+('00005', 'Paige Turner', 'Mimia'),
+('00006', 'Bob Frapples', 'Mexico City'),
+('00007', 'Walter Melon', 'Amsterdam'),
+('00008', 'Shonda Leer', 'São Paulo');
+
+INSERT INTO Invoices (InvoiceNumber, Date, Car_ID, Customer_ID, Salesperson_ID) VALUES
+(852399038, '2018-08-22', 0, 1, 3),
+(731166526, '2018-12-31', 3, 0, 5),
+(271135104, '2019-01-22', 2, 2, 7);
 
 
 
